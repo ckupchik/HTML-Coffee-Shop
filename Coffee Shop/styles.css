@@ -1,0 +1,83 @@
+body {
+  background-color:#DCD7C9;
+}
+div {
+    display: block;
+}
+
+.active {
+color: #A27B5C!important;
+}
+
+.nav-link:hover {
+    color: #DCD7C9!important;
+}
+
+.bg-dark {
+    background-color: #2C3639!important;
+}
+
+.jumbotron-img {
+    background-image: url(/images/coffee.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+}
+
+.jumbotron-title {
+    color: #A27B5C!important;
+    font-size: 72px;
+}
+
+.jumbotron-text {
+    color: #DCD7C9;
+    max-width: 400px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    }
+}
+
+@media (min-width: 768px) {
+.col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+    }
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.text-body-secondary {
+    color: whitesmoke!important;
+    padding-left: 20px;
+}
+
